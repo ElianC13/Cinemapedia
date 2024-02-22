@@ -50,6 +50,8 @@ class _HomeViewState extends ConsumerState<_HomeView> {
 
     if(slideShowMovies.isEmpty) return const CircularProgressIndicator();
 
+    return FullScreenLoader();
+
     return CustomScrollView(
       slivers: [
 
