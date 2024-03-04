@@ -8,9 +8,9 @@ class MoviesSlideShow extends StatelessWidget {
   final List<Movie> movies;
 
   const MoviesSlideShow({
-    super.key,
+    super.key, 
     required this.movies,
-  });
+    });
 
   @override
   Widget build(BuildContext context) {
@@ -18,10 +18,10 @@ class MoviesSlideShow extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
 
     return SizedBox(
-      height: 230,
+      height: 270,
       width: double.infinity,
       child: Swiper(
-        viewportFraction: 0.8,
+        viewportFraction: 0.95,
         scale: 0.9,
         autoplay: true,
         pagination: SwiperPagination(

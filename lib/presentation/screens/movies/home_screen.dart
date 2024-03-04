@@ -58,8 +58,8 @@ class _HomeViewState extends ConsumerState<_HomeView> {
 
         const SliverAppBar(
           floating: true,
+          title: CustomAppbar(),
           flexibleSpace: FlexibleSpaceBar(
-            title: CustomAppbar(),
           ),
         ),
 
