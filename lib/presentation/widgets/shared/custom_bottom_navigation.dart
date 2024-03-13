@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class CustomBottonNavigation extends StatelessWidget {
+class CustomBottomNavigation extends StatelessWidget {
 
   final int currentIndex;
 
-  const CustomBottonNavigation({super.key, required this.currentIndex});
+  const CustomBottomNavigation({super.key, required this.currentIndex});
 
   void onItemTapped( BuildContext context, int index ){
     switch(index){
@@ -35,8 +35,8 @@ class CustomBottonNavigation extends StatelessWidget {
           label: 'Inicio'
         ),
          BottomNavigationBarItem(icon: 
-          Icon(Icons.label_outline),
-          label: 'Categirias'
+          Icon(Icons.thumb_up_off_alt_outlined),
+          label: 'Populares'
         ),
         BottomNavigationBarItem(icon: 
           Icon(Icons.favorite_border_rounded),
